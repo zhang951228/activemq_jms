@@ -19,7 +19,7 @@ public class activeMqServlet {
     private String brokerName;
 
     //是否启用内嵌activemq
-    @Bean
+    //@Bean
     public BrokerService brokerService() throws Exception {
         BrokerService brokerService = new BrokerService();
         brokerService.setBrokerName(brokerName);
