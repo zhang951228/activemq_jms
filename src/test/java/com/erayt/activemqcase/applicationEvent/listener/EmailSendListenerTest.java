@@ -15,6 +15,8 @@ import org.springframework.context.ApplicationEventPublisher;
 @SpringBootTest
 public class EmailSendListenerTest {
 
+
+
     @Autowired
     private ApplicationEventPublisher eventPublisher;
 
